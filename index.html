@@ -176,6 +176,17 @@ body {
 }
 .inst-more-link:hover { background: var(--orange-dark); }
 .inst-more-link::after { content: '→'; }
+.camp-more-link {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.88);
+  font-size: 12px; font-weight: 700;
+  padding: 8px 18px; border-radius: 20px;
+  text-decoration: none; letter-spacing: 0.04em;
+  border: 1.5px solid rgba(255,255,255,0.2);
+  margin-top: 14px; transition: background 0.15s;
+}
+.camp-more-link:hover { background: rgba(255,255,255,0.2); }
+.camp-more-link::after { content: '→'; }
 
 /* ── CAMP PROMO ── */
 .camp-promo {
@@ -362,6 +373,9 @@ body {
     <div class="price-original">$19,800</div>
     <div class="price-early">$17,800</div>
     <div class="price-note">早鳥優惠<br>截止 5/15</div>
+  </div>
+  <div style="text-align:center">
+    <a class="camp-more-link" href="https://fpclass99-ui.github.io/bigboss-2026/" target="_blank">📋 食戰營－完整介紹</a>
   </div>
 </div>
 
